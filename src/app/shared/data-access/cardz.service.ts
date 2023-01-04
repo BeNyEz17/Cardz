@@ -13,4 +13,7 @@ export class CardzService {
   getCardzById(id: number): Observable<Cardz> {
     return this.http.get<Cardz>('http://localhost:3000/cardz/1');
   }
+  getAllCardz(): Observable<Cardz[]>{
+    return this.http.get<Cardz[]>('http://localhost:3000/cardz/');
+  }
 }
