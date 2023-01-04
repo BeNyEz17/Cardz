@@ -14,7 +14,16 @@ export default class CardzAllComponent implements OnInit{
   constructor(private cardzService : CardzService){
 
   }
+
   ngOnInit(): void {
   this.userCardzList$ = this.cardzService.getAllCardz();
+  }
+
+  deleteById(id: number): void {
+    this.cardzService.deleteCardzById(id).subscribe((result)=>{
+      console.log(result)
+      this.userCardzList$ = this.cardzService.getAllCardz();
+      }
+    )
   }
 }

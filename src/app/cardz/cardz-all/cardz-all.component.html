@@ -1,3 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Tableau List cardz</th>
+        </tr>
+    </thead>
+    <tbody>
+        <ng-container *ngIf="(userCardzList$ | async) as userCardzList">
+            <tr *ngFor="let userCard of userCardzList">
 
+                <td>
+                    <a [routerLink]="['/cardz/', userCard.id, 'view']" routerLinkActive="active">{{ userCard.name }}</a>
+                    <button (click)="deleteById(userCard.id)"> delete </button>
+                </td>
 
-<pre>{{userCardzList$ | async | json}}</pre>
+            </tr>
+        </ng-container>
+    </tbody>
+</table>

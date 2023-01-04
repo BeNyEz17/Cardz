@@ -42,6 +42,50 @@
           "icon": "c"
         }
       ]
+    },
+
+    {
+      "id": 2,
+      "name": "GrGr",
+      "biography": "I am Poor",
+      "avatar": "url(assets/avatar.jpg)",
+      "animation": "animate__animated animate__fadeInLeft",
+      "background": {
+        "image": "url(assets/background.jpg)",
+        "animation": "animate__animated animate__fadeIn"
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "<"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "k"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "c"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "<"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "k"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=iik25wqIuFo",
+          "text": "Visitez mon Github pour des projets sympas!",
+          "icon": "c"
+        }
+      ]
     }
   ]
 }

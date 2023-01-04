@@ -11,6 +11,7 @@ import {SocialMediaIcon} from "../../shared/types/social-media-icon";
 export class CardzCustomizationComponent {
 
   userCard: Cardz = {
+    id : 1,
     name: 'Rudy Evrard',
     biography: 'I am a software developer',
     avatar: 'url(assets/avatar.jpg)',
